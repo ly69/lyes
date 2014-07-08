@@ -1,7 +1,11 @@
 {
-"name": "Project",
-"version": "0.0.1",
-"require":{
-"zendframework/zendframework1" : "=1.12.7"
-}
+    "name" : "zf-orm",
+    "version" : "0.0.1",
+    "require" : {
+        "zendframework/zendframework1" : "=1.12.7"
+    },
+    "repositories" : [{
+        "type" : "composer",
+        "url" : "https://packagist.org"
+    }]
 }
