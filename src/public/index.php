@@ -15,8 +15,8 @@ require_once VENDOR_PATH.DS.'autoload.php';
 if ('development' === APP_ENV) {
     \php_error\reportErrors();
 } else {
-    set_exception_handler(array('\Iplib\error', 'handleException'));
-    set_error_handler(array('\Iplib\error','handleErrors'));
+  //  set_exception_handler(array('\Iplib\error', 'handleException'));
+    //set_error_handler(array('\Iplib\error','handleErrors'));
 }
 
 $autoloader = Zend_Loader_Autoloader::getInstance();
