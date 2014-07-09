@@ -1,6 +1,6 @@
 #editorconfig.org
 
-root=true
+root = true
 
 [*]
 indent_style = space
@@ -21,3 +21,4 @@ indent_size = 4
 
 [*.php]
 indent_size = 4
+

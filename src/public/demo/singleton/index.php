@@ -1,12 +1,8 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Administrateur
- * Date: 07/07/14
- * Time: 16:57
- */
+<?php 
 
 require 'Single.php';
 
-$single1 = new Single();
+$single1 = Single::getInstance();
 var_dump($single1);
+$single2 = Single::getInstance();
+var_dump($single2);
